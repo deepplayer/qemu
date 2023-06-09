@@ -54,7 +54,7 @@ of other UNIX targets. The simple steps to build QEMU are:
 
   mkdir build
   cd build
-  ../configure
+  ../configure --target-list=loongarch64-linux-user,loongarch64-softmmu
   make
 
 Additional information can also be found online via the QEMU website:
